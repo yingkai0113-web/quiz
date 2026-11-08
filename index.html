@@ -4,5 +4,5 @@
 <header class="top"><div class="top-in"><div class="brand">員林農工陳盈愷老師食品加工題庫系統<small id="stat"></small></div><div class="who" id="who"></div><nav class="tabs" id="tabs" role="tablist" aria-label="功能"></nav></div></header>
 <main class="wrap" id="main"><div class="empty boot">載入中…（第一次開啟約需 5 秒）</div></main>
 <footer id="privacy" style="max-width:860px;margin:32px auto 24px;padding:0 16px;font-size:12px;color:#51605a;line-height:1.7"><b>隱私權說明</b>：本系統僅用 Google 登入取得您的電子郵件與姓名，用來記錄個人的練習與作業成績；資料存放在授課教師的 Google 試算表，只供教學使用，不提供給第三方。聯絡：員林農工 陳盈愷老師（yingkai0113@gmail.com）。</footer>
-<script>(function(){var s=document.createElement("script");s.src=FP_WEB.backend+"?f=app&v="+Date.now();s.onload=function(){App.start();};s.onerror=function(){document.getElementById("main").innerHTML="<div class=\"boot\">無法載入題庫程式，請檢查網路後重新整理。</div>";};document.body.appendChild(s);})();</script>
+<script>(function(){var n=0;function go(){var s=document.createElement("script");s.crossOrigin="anonymous";s.src=FP_WEB.backend+"?f=app&v="+Date.now();s.onload=function(){App.start();};s.onerror=function(){s.remove();if(++n<3)return setTimeout(go,1500);document.getElementById("main").innerHTML="<div class=\"boot\">無法載入題庫程式，請重新整理再試一次。</div>";};document.body.appendChild(s);}go();})();</script>
 </body></html>
